@@ -12,3 +12,9 @@ jobs:
     
     - name: hello-action
       uses: ./.github/actions/hello-world
+      with: 
+        first-greeting: Neymar Jr.
+      with: 
+        second-greeting: Lautaro Martinez
+      with: 
+        third-greeting: Fabian Ruiz
